@@ -16,5 +16,5 @@ const countOccurences = function (target, array) {
   return array.reduce(incrementTargetCount(target), 0);
 }
 
-console.log(countOccurences('a', array));
+console.log(countOccurences('l', array));
 
