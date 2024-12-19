@@ -28,7 +28,7 @@
 const isEven = (number) => number % 2 === 0;
 
 const areBothEvenOrOdd = function (num1, num2) {
-  
+  return isEven(num1) === isEven(num2);
 }
 
 const evenOdd = [3, 1, 6, 2, 4, 5, 21, 34];
